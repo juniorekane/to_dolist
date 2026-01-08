@@ -15,7 +15,7 @@ Entwicklung einer REST-API zur Verwaltung von To-Do-Einträgen (CRUD) inklusive 
 
 ---
 
-# 1. 🎯 Projektziele
+# 1. Projektziele
 
 Dieses Projekt dient als:
 
@@ -27,7 +27,7 @@ Dieses Projekt dient als:
 
 ---
 
-# 2. 🧱 Funktionale Anforderungen
+# 2. Funktionale Anforderungen
 
 ### 2.1. To-Do erstellen  
 **POST /todos**
@@ -62,7 +62,7 @@ Dieses Projekt dient als:
 
 ---
 
-# 3. 🏛 Nicht-funktionale Anforderungen
+# 3. Nicht-funktionale Anforderungen
 
 ### 3.1. Code-Qualität & Clean Code
 
@@ -104,7 +104,7 @@ src/main/java/com/junior/todo
 
 ---
 
-# 4. 📐 API-Spezifikation (OpenAPI Style)
+# 4. API-Spezifikation (OpenAPI Style)
 
 ## ToDo Model
 
@@ -119,7 +119,7 @@ src/main/java/com/junior/todo
 
 ---
 
-# 5. 🔧 Technischer Plan / Architektur
+# 5. Technischer Plan / Architektur
 
 ### Controller  
 - Validiert Input  
@@ -138,7 +138,7 @@ src/main/java/com/junior/todo
 
 ---
 
-# 6. 🧪 Testplan
+# 6. Testplan
 
 ### Unit Tests  
 | Fall           | Erwartung             |
@@ -157,7 +157,7 @@ src/main/java/com/junior/todo
 
 ---
 
-# 7. 📦 Build & Deployment
+# 7. Build & Deployment
 
 ## Maven
 
