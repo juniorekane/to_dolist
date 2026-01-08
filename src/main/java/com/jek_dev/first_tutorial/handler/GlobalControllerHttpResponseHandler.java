@@ -16,7 +16,7 @@ import java.util.Map;
  * An error handler to communicate the user what the error was
  */
 @RestControllerAdvice
-public class GlobalControllerHttpResponsehandler {
+public class GlobalControllerHttpResponseHandler {
 
     /**
      * Catch all {@link ToDoNotFoundException} and send his to the user with an error status code
