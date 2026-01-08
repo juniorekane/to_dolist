@@ -1,0 +1,30 @@
+services:
+  db:
+    image: mariadb
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: root
+      MARIADB_DATABASE: spring_test_db
+    ports:
+      - "3307:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - "8089:8080"
+
+  app:
+    image: first-tutorial
+    ports:
+     - "8080:8080"
+    environment:
+     SPRING_PROFILES_ACTIVE: docker
+    depends_on:
+      - db
+
+
+volumes:
+  db_data:
